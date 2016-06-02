@@ -1,0 +1,26 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "this is a example",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chenxiaohuan/www.git"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "chenxiaohuan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chenxiaohuan/www/issues"
+  },
+  "homepage": "https://github.com/chenxiaohuan/www#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-less": "^3.1.0"
+  }
+}

@@ -280,22 +280,7 @@ span.highlight {
 a.undecoration, .navbar a {
     text-decoration: none!important;
 }
-.services-item p {
-    position: absolute;
-    box-sizing: border-box;
-    padding: 15px;
-    display: block;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    transform: scale(0);
-    background-color: rgba(0,194,255,.85);
-    color: #fff;
-    transition: all .4s;
-    -webkit-transition: all .4s;
-    -moz-transition: all .4s;
-    -o-transition: all .4s;
-}
+
 #services {
 	background:url('../Images/banners/banner11.jpg') no-repeat center center;
 	text-align:center;
@@ -350,7 +335,11 @@ a.undecoration, .navbar a {
 	display:block
 }
 .services-item:hover p {
-	transform:scale(1)
+	transform:scale(1);
+
+}
+.services-item:hover p a{
+	color:#ffffff;
 }
 @media(max-width:992px) {
 	.services-item {

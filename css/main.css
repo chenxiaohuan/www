@@ -332,15 +332,13 @@ a.undecoration, .navbar a {
 	-o-transition:all .4s
 }
 .services-item p a {
-	display:block
+	display:block;
+	color: #ffffff;
 }
 .services-item:hover p {
 	transform:scale(1);
+}
 
-}
-.services-item:hover p a{
-	color:#ffffff;
-}
 @media(max-width:992px) {
 	.services-item {
 		height:auto;
